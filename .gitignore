@@ -1,0 +1,50 @@
+# Created by https://www.gitignore.io/api/c++
+
+### C++ ###
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+/build/
+/build_mpi/
+.vscode/
+Documentation/html/
+Documentation/latex/
+*~
+
+#Eclipse Projects
+/.project
+/.cproject
+/.settings
+
+#MacOS Files
+.DS_Store
+
+#Visual Studio Files
+/.vs
+out/
+
